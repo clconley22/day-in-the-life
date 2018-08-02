@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #24395b;
+  min-height: 100%;
+  margin: 0;
+}
+
+header {
+  font-family: 'Delius Unicase', cursive;
+  font-weight: bold;
+  text-align: center;
+  background-color: #24395b;
+  color: #b1bfd8;
+  padding: 10px 0px 10px 0px;
+  position: fixed;
+  width:100%;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #b1bfd8;
+  padding: 0 10px 10px 10px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: white;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: 'Delius Unicase', cursive;
+}
+
+#morning {
+  background-image: url("morning-coffee.jpg");
+  background-repeat: round;
+  height: 500px;
+  width: 100%;
+  padding-top: 175px;
+  padding-left:10px
+}
+
+#morning h1 {
+  margin: 0px;
+}
+
+#afternoon {
+  background-image: url("midday.jpg");
+  background-repeat: round;
+  height: 500px;
+  padding-top: 30px;
+}
+
+#afternoon h1 {
+  text-align: center;
+}
+
+#evening {
+  background-image: url("IMG_1119480.png");
+  background-repeat: round;
+  height: 500px;
+  padding-top: 30px;
+  padding-right:10px;
+}
+
+#evening h1 {
+  text-align: right;
+  color: #b1bfd8;
+}
+
+#evening li{
+  color: #b1bfd8;
+}
+
+footer {
+  background-color: #24395b;
+  color: #b1bfd8;
+  font-family: 'Delius Unicase', cursive;
+  text-align: center;
+}
+footer .fa {
+  font-size: 25px;
+  padding: 15px;
+}
+
+li {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.75em;
+  margin: 20px 0px 0px 25px;
+}
+
+ul {
+  padding-top: 10px;
+}
+
+@media (max-width: 712px) {
+  #morning {
+    padding-top: 200px;
+  }
+}
